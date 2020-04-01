@@ -4,4 +4,3 @@ class School
   end
 end
 
-school.roster
