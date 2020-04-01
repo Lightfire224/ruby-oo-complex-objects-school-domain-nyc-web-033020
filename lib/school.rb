@@ -1,7 +1,7 @@
 # code here!
 class School
-  def initiliaze(school)
-    @school = school
+  def initiliaze(name)
+    @school = name
   end
 end
 
