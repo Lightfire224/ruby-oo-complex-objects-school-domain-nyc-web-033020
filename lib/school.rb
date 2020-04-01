@@ -1,6 +1,6 @@
 # code here!
 class School
-  def initiliaze(roster)
+  def initiliaze
     @roster = roster
   end
 end
