@@ -22,6 +22,10 @@ class School
       @roster[number] = array
     end
   end
+  
+  def grade
+  end
+  
 end
 
 
