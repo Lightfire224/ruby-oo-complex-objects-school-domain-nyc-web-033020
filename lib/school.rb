@@ -14,6 +14,7 @@ class School
   end
   
   def add_student(name, number)
+    @roster[:number] << name
   end
 
 end
