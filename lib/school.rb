@@ -13,9 +13,9 @@ class School
     @roster = roster_input
   end
   
-  def add_student(name, number)
+  def add_student(student_name, number)
     if @roster[number]
-      @roster[number].push(name)
+      @roster[number].push(student_name)
     else
       @roster[number] = []
   end
