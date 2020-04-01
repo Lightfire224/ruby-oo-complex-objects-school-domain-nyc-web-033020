@@ -23,7 +23,7 @@ class School
     end
   end
   
-  def grade
+  def grade(number)
   end
   
 end
