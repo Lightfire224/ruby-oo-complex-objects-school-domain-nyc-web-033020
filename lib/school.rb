@@ -22,9 +22,6 @@ class School
       @roster[number] = array
     end
   end
-
-
-
 end
 
 
