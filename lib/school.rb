@@ -13,7 +13,7 @@ class School
     @roster = roster_input
   end
   
-  def add_student
+  def add_student()
   end
 
 end
