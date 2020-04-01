@@ -1,6 +1,6 @@
 # code here!
 class School
-  def initiliaz
+  def initiliaze
 end
 
 school.roster
