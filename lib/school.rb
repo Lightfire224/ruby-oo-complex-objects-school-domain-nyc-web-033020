@@ -8,5 +8,9 @@ class School
     @roster
   end
   
+  def roster=(roster_input)
+    @roster = roster_input
+  end
+    
 end
 
