@@ -1,6 +1,7 @@
 # code here!
 class School
-  def initiliaze
+  def initiliaze(roster)
+    @roster
   end
 end
 
