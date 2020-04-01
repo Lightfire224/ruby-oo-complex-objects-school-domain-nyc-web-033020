@@ -1,11 +1,8 @@
 # code here!
 class School
   def initiliaze(name)
-    @school = name
+    @name = name
   end
   
-  def name
-    @name
-  end
 end
 
