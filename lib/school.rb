@@ -31,7 +31,6 @@ class School
     @roster.map do |k,v| 
       v.sort
     end
-    @roster.sort
   end
   
 end
