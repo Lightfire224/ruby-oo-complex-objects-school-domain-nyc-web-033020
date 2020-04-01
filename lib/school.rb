@@ -18,6 +18,7 @@ class School
       @roster[number] << name
     else
       @roster[number] = []
+    end
   end
 
 end
