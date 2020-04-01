@@ -2,7 +2,7 @@
 class School
   def initiliaze(name)
     @name = name
-    @roster = []
+    @roster = {}
   end
   
   def roster
