@@ -12,13 +12,21 @@ class School
   def roster=(roster_input)
     @roster = roster_input
   end
-  
-  def add_student(student_name, number)
-    if @roster[number]
-      @roster[number].push(student_name)
-    else
-      @roster[number] = []
-  end
+
+    def add_student(student_name, number)
+        if @roster[number]
+            @roster[number].push(student_name)
+        else
+            array = []
+            array << student_name
+            @roster[number] = array
+        end
+
+    end
+end
+
+
+
 end
 
 end
