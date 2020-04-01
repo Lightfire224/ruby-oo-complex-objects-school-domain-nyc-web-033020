@@ -1,11 +1,12 @@
 # code here!
 class School
-  def initiliaze(name)
+  def initiliaze(name, roster)
     @name = name
+    @roster = {}
   end
   
   def roster
-    @roster =
+    @roster 
   end
   
   def roster=(roster_input)
